@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropBox</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header">
+        <h2 class="head">Home</h2>
+        <h2 class="head">Support</h2>
+        <h2 id="signup">Sign up</h2>
+    </div>
+    <div id="register">
+        <form id="registerForm">
+            <h1>Register</h1>
+            <input type="text" id="registerUsername" placeholder="Enter your username" required>
+            <input type="email"id="registerEmail"  placeholder="Enter your email" required>
+            <input type="password" id="registerPassword" placeholder="Enter your password" required>
+            <button id="registerButton">Sign up!</button>
+            <p>Already have an account?<p id="registersignin">Sign in</p></p>
+        </form>
+    </div>
+    <div id="login">
+        <form id="loginForm">
+            <h1>Login</h1>
+            <input type="text" id="loginUsername" placeholder="Enter your username" required>
+            <input type="email"id="loginEmail"  placeholder="Enter your email" required>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+            <button id="loginButton">Sign up!</button>
+        </form>
+    </div>
+
+    <div id="bucketFormContainer">
+        <form id="bucketForm">
+            <h1>Bucket</h1>
+            <input type="text" id="bucketName" placeholder="Enter your bucket name" required>
+            <button type="submit">Create Bucket!</button>
+        </form>
+    </div>
+
+    <div id="buckets">
+        <h1>In order to view your bucket and objects, you need to sign in</h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
